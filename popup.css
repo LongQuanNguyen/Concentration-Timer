@@ -1,0 +1,31 @@
+body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start {
+    font-size: 15px;
+}
+
+#minutes {
+    font-size: 15px;
+    margin-right: 10px;
+    width: 100px;
+}
+
+#timeRemaining {
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+}
